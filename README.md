@@ -1,22 +1,22 @@
-# Roommate-Recommendation
+# Introduction
+This project was part of the Distributed and Mobile Systems course, completed with a classmate. At The Chinese University of Hong Kong, many dormitory assignments are based on students' shared interests. This project aimed to simulate the process of collecting student interest survey data and develop a roommate matching system using Python. The system leverages recommendation algorithms and a greedy algorithm to optimize roommate pairings based on interest alignment.
 
-## 项目与报告内容
-我把之前和另一个同学一起完成分布式与移动系统的作业快速上传到这里来了.
-项目的报告分为这几部分:
-- 1. 介绍
-- 2. 相关文献
-- 3. 推荐系统类型
-- 4. 基于邻域的协同过滤
-- - 基于用户
-- - 基于物品
-- - 实现方式(相似度计算等)
-- 5. 舍友推荐应用
 
-参考资料在ppt和报告中有
+# Report Structure:
+Introduction
+Related Literature
+Types of Recommendation Systems
+Neighborhood-Based Collaborative Filtering
+User-Based
+Item-Based
+Implementation (similarity calculation, etc.)
+Roommate Recommendation Application
 
-## 我负责的:
-- 部分:3, 4, 5部分
-- 主要内容: 基于邻域的协同过滤种类, 推荐系统实现步骤, 相似度计算, 代码实现
+# My Responsibilities:
+Sections: 3, 4, and 5
+## Main Contributions:
+- Designed and implemented a recommendation algorithm using cosine similarity to measure interest alignment.
+- Applied a greedy algorithm to optimize roommate pairing.
+- Focused on neighborhood-based collaborative filtering (user-based and item-based) and implemented similarity calculation methods.
+- Leveraged big data analytics to enhance the accuracy and efficiency of the recommendation process.
 
-## 后记
-目前仅是快速搬运, 后续我会把框架细化
